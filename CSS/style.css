@@ -1,0 +1,266 @@
+.top-header {
+    background-color: #ec644c;
+}
+
+.top-header ul {
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+.social-icons {
+    padding: 0;
+}
+
+.main-header h1 {
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #fdf8ce;
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: #fdf8ce;
+    border-radius: 8px;
+}
+
+.icon {
+display: inline-block;
+width: 1em;
+height: 1em;
+stroke-width: 0;
+stroke: currentColor;
+fill: currentColor;
+color: #fdf8ce;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+========================================== */
+
+.icon-search {
+    font-size: 20px;
+    color: black;
+}
+
+.main-header {
+    background-color: #de473b;
+}
+
+.main-header a {
+    font-family: 'Oswald', sans-serif; 
+}
+
+.bottom-header {
+    background-color: #fdf8ce;
+}
+
+.bottom-header p {
+    margin: 0;
+    font-family: 'Oswald', sans-serif; 
+    font-style: italic;
+    font-weight: 200;
+}
+
+.bottom-header form {
+    margin-top: 7px;
+}
+
+.top-nav {
+    margin-bottom: 6px;;
+}
+
+.filter-image img {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+
+.filter-wrapper {
+    position: relative;
+    height: 600px;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+}
+
+.mid-body {
+    background-color: #f3eedd;
+}
+
+.restaurant-info {
+    padding: 25px 0;
+}
+
+.restaurant-info h2 {
+    color: #de473b;
+    font-size: 25px;
+}
+
+.bottom-body {
+    background-color: #f8f5eb;
+    font-family: 'Oswald', sans-serif; 
+    padding: 40px 0;
+}
+
+.offer-block {
+    margin-left: 15px;
+}
+
+.bottom-body a {
+    color: #de473b;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.bottom-body h2 {
+    font-family: 'Oswald', sans-serif; 
+}
+
+.bottom-body span {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 15px;
+    color: #9ca030;
+}
+
+.bottom-body p.offer-head {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 25px;
+    color: #9ca030;
+}
+
+.bottom-body .icon {
+    font-size: 65px;
+    color: #9ca030;
+}
+
+.bottom-body #reservations {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 40px;
+    opacity: 65%;
+}
+
+.top-footer {
+    background-color: #68645c;
+    padding: 30px 0;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.top-footer span {
+    opacity: 50%;
+}
+
+.main-footer {
+    background-color: #5a5954;
+    padding: 26px 0;
+}
+
+.main-footer h2 {
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 14px;
+}
+
+.main-footer h3 {
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 14px;
+}
+
+.main-footer p {
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 10px;
+    opacity: 50%;
+}
+ 
+.main-footer a {
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.main-footer ul {
+    list-style-type: none;
+    color: whitesmoke;
+    opacity: 50%;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 10px;
+    padding: 0;
+}
+
+.main-footer span {
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.main-footer hr {
+    color: whitesmoke;
+    background-color: whitesmoke;
+    opacity: 10%;
+    height: 1px;
+}
+.bottom-footer {
+    background-color: #403c3c;
+    padding: 30px 0;
+}
+
+.bottom-footer h2 {
+    font-family: 'Oswald' sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.bottom-footer p {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+    .filter-image img {
+        height: 450px;
+    }
+    .filter-wrapper {
+        height: 450px;
+    }
+    .carousel-item img {
+        height: 450px;
+    }
+}
+
+@media (max-width: 425px) {
+    .filter-image img {
+        height: 300px;
+    }
+    .filter-wrapper {
+        height: 300px;
+    }
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
